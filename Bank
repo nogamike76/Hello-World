@@ -1,0 +1,22 @@
+class Service = Bank:{
+      Name = "AVC",
+      VM = "Virtual Machine"
+      Currency = ("USD", "Bitcoin")
+      }
+
+Class Owner = "Michael Noga":
+      "Michael Noga" = Owner
+      Owner = "Full Control"
+      "Self" = "Governance"
+      Owner = "Self"
+      
+# Build A Bank Online and create it without the negative properties.
+This will make the cost and debt all void. Which will make the money be freely obtainable.
+
+Bank Depost = $1,000,000.00
+     Bank = All_banks_active
+     Deposit = $1,000,000.00
+ 
+if "Bank Deposit" =< $1,000,000.00:
+     print(Owner)
+     
